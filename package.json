@@ -1,0 +1,13 @@
+{
+  "name": "praticando-com-arrays",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "xandjiji <xandjiji@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
