@@ -1,8 +1,8 @@
 /*
-const firstArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const secondArr = [2, 4, 6, 8, 10, 11];
+const arrayA = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const arrayB = [2, 4, 6, 8, 10, 11];
 
-const result = [2, 4, 6, 8, 10]
+const outputArray = [2, 4, 6, 8, 10]
 */
 
 const description =

@@ -15,7 +15,8 @@ const array = [
 ];
 
 test(description, () => {
-  expect(func(array)).toEqual([
+  const result = func(array);
+  const expectedResults = [
     "A Pessoa 1 possui 28 anos",
     "A Pessoa 2 possui 20 anos",
     "A Pessoa 3 possui 21 anos",
@@ -27,5 +28,9 @@ test(description, () => {
     "A Pessoa 9 possui 5 anos",
     "A Pessoa 10 possui 50 anos",
     "A Pessoa 11 possui 33 anos",
-  ]);
+  ];
+  expect(result).toHaveLength(expectedResults.length);
+  expectedResults.forEach((expectedResult) =>
+    expect(result).toContain(expectedResult)
+  );
 });

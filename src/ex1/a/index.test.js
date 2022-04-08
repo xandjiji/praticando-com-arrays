@@ -15,7 +15,8 @@ const array = [
 ];
 
 test(description, () => {
-  expect(func(array)).toEqual([
+  const result = func(array);
+  const expectedResults = [
     "Pessoa 1",
     "Pessoa 2",
     "Pessoa 3",
@@ -27,5 +28,9 @@ test(description, () => {
     "Pessoa 9",
     "Pessoa 10",
     "Pessoa 11",
-  ]);
+  ];
+  expect(result).toHaveLength(expectedResults.length);
+  expectedResults.forEach((expectedResult) =>
+    expect(result).toContain(expectedResult)
+  );
 });

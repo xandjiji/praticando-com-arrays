@@ -1,6 +1,6 @@
 # Introdução
 
-Neste projeto, você irá praticar manipulações com **Arrays**!
+Neste projeto você irá praticar manipulações com **Arrays**!
 
 Dentro da pasta `/src` existem vários exercícios, utilizando a seguinte anatomia de diretórios:
 
@@ -68,7 +68,7 @@ Porém, não se preocupe com nada disso enquanto estiver fazendo os exercícios.
 
 Primeiro, clone este repositório usando:
 ```
-git clone git@github.com:xandjiji/praticando-com-arrays.git
+git clone git@git.ifoodcorp.com.br:alexandre.seleghim/praticando-com-arrays.git
 ```
 
 e depois é só instalar as dependências usando um gerenciador de pacotes (usando `npm install` ou `yarn`)

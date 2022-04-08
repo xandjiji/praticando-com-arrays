@@ -1,7 +1,7 @@
 /*
-const dirty = [1, 2, 2, 3, 4, 5, 6, 3, 7, 8, 5, 9, 10];
+const inputArray = [1, 2, 2, 3, 4, 5, 6, 3, 7, 8, 5, 9, 10];
 
-const clean = [1, 4, 6, 7, 8, 9, 10]
+const outputArray = [1, 4, 6, 7, 8, 9, 10]
 */
 
 const description =
